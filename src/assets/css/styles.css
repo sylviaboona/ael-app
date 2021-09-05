@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(246, 246, 246);
+    background-color:white;
 }
 .navbar{
-    margin-left: 10em;
-    margin-right: 10em;
+    /* margin-left: 10em;
+    margin-right: 10em; */
     background-color: white;
     border-radius: .2em;
     padding-top:1em;
@@ -11,8 +11,8 @@ body{
 }
 
 .navbar-link{
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 14em;
+    padding-right: 14em;
     text-decoration: none;
     color: rgb(102, 101, 101);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -21,8 +21,209 @@ body{
 }
 
 .page-container{
-    margin-left: 10em;
-    margin-right: 10em;
-    background-color: white;
+    /* margin-left: 10em;
+    margin-right: 10em; */
+    background-color: rgb(240, 238, 238);
+    /* background-color: white; */
+    display: flex;
+    height: 43em;
+    background-image: linear-gradient('many-gutars.jpg');
+    /* border-radius: 1em; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
 
+.form-control{
+    display: block;
+  width: 36%;
+  height: 1em;
+  padding: 1em .5em;
+  font-size: .85em;
+  color: black;
+  background-color: rgb(235, 231, 231);
+  background-clip: padding-box;
+  margin-bottom: .9em;
+  border: none;
+}
+
+.login-leftpanel{
+    width: 60%;
+    background-color: white;
+    align-content: center;
+    margin-left: 10em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    /* text-align: center; */
+}
+
+.login-sidebar{
+    width: 20%;
+    background-color: rgb(13, 158, 146);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* height: 40em; */
+}
+
+.signin-btn{
+    display: block;
+    width: 25%;
+    height: 3.5em;
+    padding: 1em .5em;
+    font-size: .85em;
+    color: white;
+    background-color: rgb(13, 158, 146);
+    border-radius: 2em;
+    margin-top: 1em;
+   border: none;
+   margin-left: 4em;
+}
+
+.sigin-form{
+    width: 100%;
+    margin-left: 20em;
+    padding-top: 10em;
+    
+}
+
+.signin-heading{
+    font-weight: bold;
+    color: rgb(13, 158, 146);
+    font-size: 1.75em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forgot-password{
+    text-decoration: none;
+    color: rgb(99, 98, 98);
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+}
+
+.signup-link{
+    color: rgb(13, 158, 146);
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.no-account-text{
+    margin-left: 5em;
+    color: rgb(44, 44, 44);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+}
+
+.sidebar-content{
+    margin-top: 15em;
+    display: block;
+    text-align: center;
+}
+
+.sidebar-heading{
+    font-weight: bold;
+    color: rgb(250, 248, 248);
+    font-size: 1.75em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.sidebar-btn{
+    display: block;
+    width: 50%;
+    height: 3.5em;
+    padding: 1em .5em;
+    font-size: .85em;
+    color: white;
+    background-color: rgb(13, 158, 146);
+    border-radius: 2em;
+    margin-top: 1em;
+   border: .1em solid white;
+   margin-left: 6em;
+}
+
+.sidebar-text{
+    margin-left: 2em;
+    margin-right: 2em;
+    color: rgb(44, 44, 44);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+}
+
+.signup-sidebar{
+    width: 30%;
+    background-color: rgb(13, 158, 146);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10em;
+}
+
+.signup-rightpanel{
+    width: 60%;
+    background-color: white;
+    align-content: center;
+    margin-right: 10em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.sigup-form{
+    width: 40%;
+    margin-left: 15em;
+    margin-top: 10em;
+    /* border: 1px solid gray; */
+    border-radius: 1em;
+    /* box-shadow: 10px 10px 5px grey; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.form-control-signup{
+    display: block;
+  width: 90%;
+  height: 1em;
+  padding: 1em .5em;
+  font-size: .85em;
+  color: black;
+  background-color: rgb(235, 231, 231);
+  background-clip: padding-box;
+  margin-bottom: .9em;
+  margin-left: 1em;
+  border: none;
+}
+
+.signup-heading{
+    font-weight: bold;
+    color: rgb(13, 158, 146);
+    font-size: 1.75em;
+    margin-left: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup-btn{
+    display: block;
+    width: 50%;
+    height: 3.5em;
+    padding: 1em .5em;
+    font-size: .85em;
+    color: white;
+    background-color: rgb(13, 158, 146);
+    border-radius: 2em;
+    margin-top: 1em;
+   border: none;
+   margin-left: 7em;
+   margin-bottom: 2em;
+}
+.card{
+    width: 12%;
+    height: 55%;
+    margin-left: 2em;
+    margin-top: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image{
+    width: 100%;
 }
