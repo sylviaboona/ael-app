@@ -21,7 +21,7 @@ const Home = () => {
 
             <div className="login-sidebar">
                 <div className="sidebar-content">
-                    <h1 className='sidebar-heading'>Welcome Back</h1>
+                    <h1 className='sidebar-heading'>Hello, Friend</h1>
                     <p className='sidebar-text'>This is FancyGuitars, your one stop center for all types of guitars</p>
                     <br />
                     <Link to='/signup'><input type="button" value="SIGN UP" className='sidebar-btn' /></Link>
