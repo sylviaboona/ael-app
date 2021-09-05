@@ -9,7 +9,7 @@ const Home = () => {
             <div className="login-leftpanel">
                 <form action="" className="sigin-form">
                     <h1 className='signin-heading'>Signin to FancyGuitars</h1>
-                    <p className='no-account-text'>Dont have an account? <Link to='/signup' className='signup-link'>Signup</Link></p>
+                    {/* <p className='no-account-text'>Dont have an account? <Link to='/signup' className='signup-link'>Signup</Link></p> */}
                     <br />
                     <input type="text" placeholder='Email' className='form-control' />
                     <input type="text" placeholder='Password' className='form-control' />
